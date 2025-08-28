@@ -26,6 +26,18 @@ Caveats
 - Your font needs to contain glyphs for the Unicode characters, otherwise you will typically see a little box with the unicode character index.
 - The visually best results seem to be obtained with monospace fonts.
 
+Options
+-------
+
+
+    options:
+    -h, --help            show this help message and exit
+    -r, --preserve-roman  Do not italicize roman letters (A-Z a-z) in math
+    -w, --preserve-math-whitespace
+                            Preserve whitespace between math characters
+    -p PREAMBLE, --preamble PREAMBLE
+                            Override data file from a JSON file with custom commands
+
 Examples
 --------
 
